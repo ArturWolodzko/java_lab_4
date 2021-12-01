@@ -27,5 +27,12 @@ public class Main {
         b) wykorzystać wszystkie metody do implementacji pól
         c) wyświetlić w konsoli metodę toString (na obu objektach) opisującą zachowanie klasy Dom
         */
+
+        Dom dom = new Dom(90.4,"Gdańsk jana pawła 2",15,4,KolorDomu.SZARY,23);
+        Budynek budynek = new Dom(67.9,"Gdynia Hołątaja",12,3,KolorDomu.CZERWONY,2);
+
+        System.out.println(dom);
+        System.out.println(budynek);
+
     }
 }
