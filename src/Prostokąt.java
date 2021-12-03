@@ -3,7 +3,7 @@ public class Prostokąt extends Figura{
 
     @Override
     double Pole(double x, double y) {
-        return x*y;
+         return x * y;
     }
 
     @Override

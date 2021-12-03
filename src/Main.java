@@ -17,12 +17,14 @@ public class Main {
         Figura prostokat = new Prostokąt();
         Figura kwadrat = new kwadrat();
 
-        kwadrat.Pole(5,5);
-        kwadrat.Obwód(5,5);
+        prostokat.nawzwaFigury("prostokąt");
+        System.out.println("obwód wynosi : "+prostokat.Obwód(5,7));
+        System.out.println("pole wynosi : "+prostokat.Pole(5,7));
+
         kwadrat.nawzwaFigury("kwadrat");
-        prostokat.Obwód(5,7);
-        prostokat.Pole(5,7);
-        kwadrat.nawzwaFigury("prostokąt jego obwód to :"+ prostokat);
+        System.out.println("pole wynosi : "+kwadrat.Pole(5,5));
+        System.out.println("obwód wynosi : "+kwadrat.Obwód(5,5));
+
 
 
 
