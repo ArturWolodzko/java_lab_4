@@ -14,5 +14,18 @@ public class Main {
         c) stworzyć objekty tych klas i wyświetlić przykładowe wyliczenia
         */
 
+        Figura prostokat = new Prostokąt();
+        Figura kwadrat = new kwadrat();
+
+        kwadrat.Pole(5,5);
+        kwadrat.Obwód(5,5);
+        kwadrat.nawzwaFigury("kwadrat");
+        prostokat.Obwód(5,7);
+        prostokat.Pole(5,7);
+        kwadrat.nawzwaFigury("prostokąt jego obwód to :"+ prostokat);
+
+
+
+
     }
 }
